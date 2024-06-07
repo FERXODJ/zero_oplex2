@@ -1,0 +1,85 @@
+*{
+  margin: 0 auto;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  min-width: 100pv;
+  background-color: rgb(241, 235, 164);
+  background-image: url(pppp.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+.prime{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.prime .contenedor{
+  position: absolute;
+  width: 400px;
+  background-color: rgba(41, 27, 122, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px;
+}
+.prime .contenedor .hotfix {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.prime .contenedor .hotfix h1 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px white;
+}
+.prime .contenedor .hotfix .links a{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(119, 22, 245);
+}
+.prime .contenedor .hotfix .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.prime .contenedor .hotfix .form .inputBox input{
+  justify-content: center;
+  align-content: center;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+}
+.prime .contenedor .hotfix .form .inputBox input[type="submit"] {
+  background-color: #7a22ccaf;
+  color: #ffffff;
+  padding: 9.5px ;
+  border: none;
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px white;
+}
+
+input[type="submit"]:hover{
+  opacity: 0.6;
+}
