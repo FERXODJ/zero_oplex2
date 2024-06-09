@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  body {
+    justify-content: center;
+    align-items: center;
+    min-width: 100pv;
+    background-image: url(moreicion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+  .prime{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .prime .contenedor{
+    position: absolute;
+    width: 400px;
+    background-color: rgba(92, 27, 122, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px;
+  }
+  .prime .contenedor .hotfix {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .prime .contenedor .hotfix h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px white;
+  }
+  .prime .contenedor .hotfix .links a{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(119, 22, 245);
+  }
+  .prime .contenedor .hotfix .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .prime .contenedor .hotfix .form .inputBox input{
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+  }
+  .prime .contenedor .hotfix .form .inputBox input[type="submit"] {
+    background-color: #7a22cc6c;
+    color: #ffffff;
+    padding: 9.5px ;
+    border: none;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px white;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0) ;
+  }
+  input[type="submit"]:hover{
+    opacity: 0.6;
+  }
